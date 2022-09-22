@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-wassim:joe123sh@cluster0.9lg9eft.mongodb.net/todolistDB", {useNewUrlParser: true});
 const itemSchema = {
     name: String
 }
@@ -142,7 +142,13 @@ app.get("/features", (req, res) => {
     res.render("features")
 });
 
-app.listen(3000, function () {
-    console.log("Server has started at port 3000 successfully.");
+let port = process.env.PORT ;
+if ( port == null || port == "" ) {
+ port = 3000 ;
+}
+
+
+app.listen(port, function () {
+    console.log("Server has started successfully.");
     
 });
