@@ -1,0 +1,186 @@
+.footer-padding {
+    
+}
+body{
+    font-family: "Montserrat";
+    background-color: #e4e9fd;
+}
+.background{
+    background-color: #e4e9fd;
+}
+.app-features{
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+    font-weight: 550;
+}
+
+
+.external-image{
+    width: 110px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    bottom: 0;
+    padding-top: 10px;
+    margin-top: 50px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+
+.logo {
+    width: 70px;
+}
+
+.right-nav{
+    position:absolute;
+    right: 5%;
+}
+.login-box{
+    width: 40%;
+}
+
+
+.container{
+    margin-top: 5%;
+}
+
+.text-center{
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-box{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(34, 34, 34);
+    padding: 10px;
+    margin-top: -1rem;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+.nav-right-btn{
+    margin-left: 15px;
+}
+
+@media (max-width: 767px){
+
+    .nav-right-btn{
+        margin-left: 0 ;
+    }
+    .right-nav{
+        position: relative;
+        right: 0 ;
+    }
+    .form-box-login {
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgb(34, 34, 34);
+        padding: 10px;
+    }
+    .form-box{
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgb(34, 34, 34);
+        padding: 10px;
+        margin-top: 2rem;
+    }
+    .items-box{
+        width: 400px
+    }
+    body{
+        margin: auto;
+    }
+    .career-objective {
+        margin: auto;
+    }
+    
+}
+.form-box-login {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(34, 34, 34);
+    padding: 10px;
+    margin-top: 4.5rem;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+}
+
+.heading-date {
+    text-align: center;
+    color: white;
+    background-color: #a683e3;
+    padding: 0 10px 0 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.title {
+    font-weight: 600;
+    font-size: 45px;
+}
+.checkbox1{
+    max-width: 50px;
+    margin: auto;
+}
+.items-box{
+    border-radius: 5px;
+    background-color: white;
+    max-width: 80%;
+
+}
+
+.single-item{
+    margin: auto;
+    border: 0;
+
+}
+
+.row-items{
+    height: 50PX;
+    border-bottom: 1px solid #F1F1F1;
+}
+.todoitem{
+    margin: auto;
+}
+
+.add-item {
+    width: 50px;
+    height: 50px;
+    background-color: #a683e3;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+    font-size: 40px;
+}
+.add-col{
+    padding: 10px;
+}
+
+.input-item{
+    border: 0;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.profile-image{
+    width: 250px;
+}
+.career-objective{
+    width: 60%;
+}
